@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150625144552) do
+ActiveRecord::Schema.define(version: 20150629131403) do
 
   create_table "car_models", force: :cascade do |t|
     t.string   "name"
@@ -42,6 +42,7 @@ ActiveRecord::Schema.define(version: 20150625144552) do
     t.integer "car_model_id"
     t.integer "factory_id"
     t.integer "annual_quota"
+    t.integer "id"
   end
 
   add_index "production_lines", ["car_model_id"], name: "index_production_lines_on_car_model_id"
