@@ -14,8 +14,11 @@
  *= require_self
  */
 
- p { 
+ p.flash { 
  
- style="color: #00ff00; background: #44cc44; border: 1px solid #00ff00; padding: 10px;
+ color: #00ff00; 
+ background: #44cc44; 
+ border: 1px solid #00ff00; 
+ padding: 10px;
 
 }
